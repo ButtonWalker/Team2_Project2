@@ -1,0 +1,39 @@
+﻿# airportdist,"Distance to closest airport with more than 10,000 boardings annually. Calculated from the geographic centroid of the Census Zip Area (CZA)."
+# airx,"A score that represents the relative air quality by combining indices of Ozone, Carbon Monoxide, Lead, Nitrogen Oxide, and Particulate matter and comparing to the national average of 100. A score of 200 indicates twice the presence of air pollutants than the national average, while 50 indicates half the presence. The different types of pollution are given equal weight in this score."
+# ancestamer,Number of people living within the area of American descent.
+# ancestamind,Number of people living within the area of Native American descent.
+# ancestasian,Number of people living within the area of Asian descent.
+# ancesteuro,Number of people living within the area of European descent.
+# ancesthawai,Number of people living within the area of Hawaiian descent.
+# ancesthisp,Number of people living within the area of Hispanic descent.
+# ancestother,Number of people living within the area of a descent listed as Other.
+# ancestunclassified,Number of people living within the area of an unclassified descent.
+# avgsaleprice,Average property tax amount for the area.
+# avg_prop_tax_year_count,"Average residential home sales price for four recent quarters. Based on actual sales collected from Assessor's offices. All included sales are arms length transactions greater than $25,000 representing single family and multi-family (2 - 4) residential sales.  * Note: This field is only available for approximately 2,500 counties nationally."
+# cocrmcytotc,"Only included for ZI, PL, CS and TR level records: A score that represents the combined risks of rape, murder, assault, robbery, burglary, larceny and vehicle theft compared to the national average of 100. A score of 200 indicates twice the national average total crime risk, while 50 indicates half the national risk. The different types of crime are given equal weight in this score."
+# crmcytotc,"A score that represents the combined risks of rape, murder, assault, robbery, burglary, larceny and vehicle theft compared to the national average of 100. A score of 200 indicates twice the national average total crime risk, while 50 indicates half the national risk. The different types of crime are given equal weight in this score."
+# daypop,The daytime population in this area.
+# edubach,Number of people who achieved a Bachelor's Degree.
+# eduagelt9_00,Education attainment from Census 2000: Number of people who achieved an 8th grade education.
+# eduhsch,Number of people who are high school graduates.
+# expfoodbev,"The costs associated with food at home, food away from home; restaurants, catered affairs, non-alcoholic and alcoholic beverages. Index score (100=National Average)"
+# exphealth,"The costs associated with health care including: health insurance, medicare payments, medical services, prescription and non prescription drugs and medical supplies. Index score (100=National Average)"
+# exphh,"The costs associated with owned dwellings; maintenance, repairs, homeowners insurance, property management and security. Index score (100=National Average)"
+# exphhops,"The costs associated with household operations; in home babysitting and child care, day care, nursery and preschools. Also includes other household expenses like: housekeeping services and supplies, lawn care services, home security, pest control, appliance repair and rental as well as other household products and postage. Index score (100=National Average)"
+# exptotal,"Average annual expenditures for food, beverages, housing, utilities, household operations, household supplies and furnishings, apparel, transportation, health care, entertainment, personal care, personal insurance, education and miscellaneous. (100=National Average)"
+# exptransport,"The costs associated with new and used vehicle purchases, vehicle finance charges, gasoline and oil, vehicle repair and maintenance, vehicle insurance, parking and tolls, public transportation and other transportation costs. Index score (100=National Average)"
+# three_bedindex,Localized index to show expected local pricing variations for a three bedroom dwelling.
+# three_bed_county,"Gross rent estimate for a three bedroom apartment; includes the shelter rent plus the cost of all tenant-paid utilities, except telephones, cable or satellite television service, and internet service."
+# idxexptotal,The average of the total expenses shown within an area per household as it relates to the national average. Index score (100=National Average)
+# inccypcap,Average individual income of people in the area.
+# inccyavehh,Average income of households in the area.
+# medsaleprice,"Median residential home sales price for four recent quarters. Based on actual sales collected from Assessor's offices. All included sales are arms length transactions greater than $25,000 representing single family and multi-family (2 - 4) residential sales. Note: This field is only available for approximately 2,500 counties nationally."
+# ozone,An invisible gas that irritates and impairs breathing. Index score (100=National Average).
+#  pm10,Fine particles of pollutants which tend to reduce visibility and invade the lungs deeply. Index score (100=National Average)
+# precipann,Combined average annual rainfall and snowfall in inches.
+# rskcyhanx,The total risk of damaging hailstorms. Based on analysis of historical hail frequency and severity. Index score (100=National Average)
+# rskcyhunx,The total hurricane risk. Based on analysis of historical hurricane tracks and intensity. Index score (100=National Average)
+# rskcyquak,The total earthquake risk. Based on analysis of historical earthquake magnitudes and fault locations. Index score (100=National Average)
+# rskcyrisk,"The total risk from various storm types (hurricanes, tornadoes, damaging hailstorms and damaging wind storms). Index score (100=National Average)"
+# salestaxrate,The reported sales tax rate for the area. Additional local taxes may apply (see SALESTAXTYPE).
+# trwave,The average commute time of workers living in this area.
