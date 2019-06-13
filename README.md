@@ -1,4 +1,4 @@
-[![INSERT YOUR GRAPHIC HERE](https://ladot.lacity.org/sites/g/files/wph266/f/styles/banner/public/lacityp_027861_0.jpg?itok=j4htAmA6)]()
+[![INSERT YOUR GRAPHIC HERE](https://github.com/ButtonWalker/Team2_Project2/blob/master/resources/Images/geoSpatialVis.png)]()
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
