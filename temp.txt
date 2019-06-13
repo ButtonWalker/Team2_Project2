@@ -1,0 +1,28 @@
+map:
+https://account.mapbox.com/access-tokens/
+
+attom:
+https://api.developer.attomdata.com/docs
+
+5-10 major cities
+
+features on the map:
+-crime, car broken
+-rental, 
+
+
+dallas, san francisco, Jackson
+hazard: flood zones, air quality, uv index
+
+api key: 8a6c3ab67caa3a66c274d4455dc0ebc3
+
+
+
+https://search.onboard-apis.com/communityapi/v2.0.0/area/full?AreaId=PL4819000
+
+
+
+
+
+
+
