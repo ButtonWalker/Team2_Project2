@@ -1,8 +1,8 @@
 // Create the tile layer that will be the background of our map
-var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}", {
-  attribution: "Map data &copy; <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"http://mapbox.com\">Mapbox</a>",
+var streetmaps = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
+  attribution: "Map data &copy; <a href='https://www.openstreetmap.org/'>OpenStreetMap</a> contributors, <a href='https://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a>, Imagery © <a href='https://www.mapbox.com/'>Mapbox</a>",
   maxZoom: 18,
-  id: "mapbox.light",
+  id: "mapbox.streets",
   accessToken: API_KEY
 });
 
@@ -17,7 +17,7 @@ var layers = {
 
 // Create the map with our layers
 var map = L.map("map-id", {
-  center: [40.73, -74.0059],
+  center: [32.7767, -96.7970],
   zoom: 12,
   layers: [
     layers.COMING_SOON,
@@ -28,8 +28,11 @@ var map = L.map("map-id", {
   ]
 });
 
-// Add our 'lightmap' tile layer to the map
-lightmap.addTo(map);
+// Add our 'streetmaps' tile layer to the map
+streetmaps.addTo(map);
+
+//ADD location to Test Data
+var dallasGeo = "https://raw.githubusercontent.com/taskrabbit/geojson/master/shape/usa/dallas/dallas.json"
 
 // Create an overlays object to add to the layer control
 var overlays = {
