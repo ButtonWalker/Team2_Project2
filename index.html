@@ -25,6 +25,52 @@
   <script type="text/javascript" src="resources/static/js/config.js"></script>
   <!-- Our JavaScript -->
   <script type="text/javascript" src="resources/static/js/logic.js"></script>
+
+  
+  <!-- The div that holds graph 1, a bar chart with a drop down box -->
+  <div id="bar1"></div>
+  <!-- Plotly JavaScript -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <h2>Information to Compare</h2>
+    <select id="selDataset" onchange="getData(this.value)">
+        <option value="airx">Relative air quality</option>
+        <option value="rskcyhunx">Total hurricane risk</option>
+        <option value="rskcyquak">Total earthquake risk</option>
+        <option value="rskcyrisk">Total risk from various storm types (hurricanes, tornadoes, damaging hailstorms and damaging wind storms)</option>
+        <option value="airportdist">Distance to closest airport with more than 10,000 boardings annually</option>
+        <option value="ancestamer">Number of people living within the area of American descent</option>
+        <option value="ancestamind">Number of people living within the area of Native American descent</option>
+        <option value="ancestasian">Number of people living within the area of Asian descent</option>
+        <option value="ancesthisp">Number of people living within the area of Hispanic descent</option>
+        <option value="avgsaleprice">Average residential home sales price for four recent quarters</option>
+        <option value="avg_prop_tax_year_count">Average property tax amount for the area</option>
+        <option value="crmcytotc">The combined risks of rape, murder, assault, robbery, burglary, larceny and vehicle theft compared to the national average of 100</option>
+        <option value="daypop">The daytime population in this area</option>
+        <option value="eduhsch">Number of people who are high school graduates.</option>
+        <option value="edubach">Number of people who achieved a Bachelor's Degree</option>
+        <option value="expfoodbev">The costs associated with food at home, food away from home; restaurants, catered affairs, non-alcoholic and alcoholic beverages</option>
+        <option value="exphealth">The costs associated with health care including: health insurance, medicare payments, medical services, prescription and non prescription drugs and medical supplies</option>
+        <option value="exphh">The costs associated with owned dwellings; maintenance, repairs, homeowners insurance, property management and security</option>
+        <option value="exphhops">The costs associated with household operations; in home babysitting and child care, day care, nursery and preschools.</option>
+        <option value="exptotal">Average annual expenditures for food, beverages, housing, utilities, household operations, personal insurance, education, etc.</option>
+        <option value="exptransport">The costs associated with new and used vehicle purchases, vehicle finance charges, gasoline and oil, vehicle repair and maintenance, etc.</option>
+        <option value="three_bedindex">Localized index to show expected local pricing variations for a three bedroom dwelling</option>
+        <option value="three_bed_county">Gross rent estimate for a three bedroom apartment</option>
+        <option value="idxexptotal">The average of the total expenses shown within an area per household as it relates to the national average</option>
+        <option value="inccypcap">Average individual income of people in the area.</option>
+        <option value="inccyavehh">Average income of households in the area</option>
+        <option value="medsaleprice">Median residential home sales price for four recent quarters</option>
+        <option value="precipann">Combined average annual rainfall and snowfall in inches</option>
+        <option value="salestaxrate">The reported sales tax rate for the area. Additional local taxes may apply</option>
+        <option value="trwave">The average commute time of workers living in this area</option>
+    </select>
+
+    <div id="barchart"></div>
+
+    <!-- Our JavaScript -->
+    <script src="resources/static/js/plotly-graph1.js"></script>
+
 </body>
 
 </html>
