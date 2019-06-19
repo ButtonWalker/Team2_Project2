@@ -59,7 +59,7 @@ streetmaps.addTo(map);
 
 
 //ADD location to Test Data
-var dallasGeo = "resources/map.geojson"
+var dallasGeo = "full-data-geojson.js"
 
 // Grab the data with d3
 d3.json(dallasGeo, function(response) {
@@ -77,7 +77,7 @@ d3.json(dallasGeo, function(response) {
     if (location) {
 
       // Add a new marker to the cluster group and bind a pop-up
-      markers.addLayer(L.marker([location.Point[1], location.Point[0]])
+      markers.addLayer(L.marker([location.coordinates[1], location.coordinates[0]])
         .bindPopup(response[i].descriptor));
     }
 
