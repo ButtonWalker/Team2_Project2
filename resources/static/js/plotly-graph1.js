@@ -21,11 +21,11 @@ function updatePlotly(newdata) {
   Plotly.restyle(BARCHART, "y", [newdata]);
   Plotly.restyle(BARCHART, "text", [newdata]);
 }
-
+// C:\Users\Hao Bai\Desktop\DSBootcamp\projects\project2\project 2\Team2_Project2\resources\citydata.JSON
 // Get new data whenever the dropdown selection changes
 function getData(dataset) {
   var datause = [];
-  d3.json("/resources/citydata.JSON", function(data) {
+  d3.json("../Team2_Project2/resources/citydata.JSON", function(data) {
     console.log("newdata", data[dataset]);
     datause.push(data[dataset]['Dallas']);
     datause.push(data[dataset]['Jackson']);
